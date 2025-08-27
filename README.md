@@ -8,13 +8,13 @@ This small script came out of a real need during a case study presentation. I wa
 
 ## Install
 
-```bash
+```python
 pip install matplotlib numpy pandas
 ```
 
 ## Use
 
-```bash
+```python
 import pandas as pd
 from heatmap import rounded_heatmap
 
@@ -55,3 +55,9 @@ fig.savefig("images/heatmap.png", bbox_inches="tight")
 - **value_fmt** – Format for cell values (e.g., `{:.1f}`).
 - **value_fontsize** – Font size for cell values.
 - **text_color_dark / text_color_light** – Override text colors for dark/light cells.
+
+## To-Do & Fixes
+
+- [x] Add customizable color palette and reverse option
+- [x] Implement gap and corner rounding for cells
+- [ ] Fix legend rounding factor so it scales consistently with legend size

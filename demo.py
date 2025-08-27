@@ -19,5 +19,5 @@ fig, ax = rounded_heatmap(
 )
 
 
-fig.savefig("images/heatmap.png", bbox_inches="tight")
+fig.savefig("images/heatmap.png")
 
